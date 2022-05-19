@@ -1,3 +1,4 @@
+/* Variables*/
 * {
   margin: 0%;
   padding: 0%;
@@ -9,12 +10,12 @@ html {
 }
 
 body {
-  background-color: beige;
+  background-color: #f5f5dc;
   width: 100%;
   position: relative;
   left: 0;
   top: 0;
-  background-color: azure;
+  background-color: #f0ffff;
   max-width: 1400px;
   min-height: 100vh;
   margin: 0px auto;
@@ -28,7 +29,7 @@ body {
 
 /*estilo de header*/
 header {
-  background: #eeaeca;
+  background: #f8cee0;
   background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
   background-size: cover;
   width: 100%;
@@ -184,7 +185,7 @@ p {
   line-height: 40px;
   text-align: center;
   font-size: 0.9rem;
-  color: #000;
+  color: black;
   text-decoration: none;
   margin-top: 10px;
   position: relative;
@@ -216,17 +217,6 @@ p {
 @media only screen and (min-width: 768px) {
   .contenedor {
         grid-template-areas: "header" "nav" "main"  "footer";
-  }
-  /*
-  .header{
-         text-align: left;
-         display: flex;
-          flex-direction: row;
-          justify-content: center;
-          align-items: center;
-          align-content: center;
-      
-  
   }
   /* Estilo de main*/
   main {
@@ -296,7 +286,7 @@ p {
     line-height: 40px;
     text-align: center;
     font-size: 1.1rem;
-    color: #000;
+    color: black;
     text-decoration: none;
     margin-top: 10px;
     position: relative;
