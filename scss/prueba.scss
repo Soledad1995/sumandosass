@@ -1,17 +1,11 @@
-/* Variables*/
-$color-principal: hsl(334, 75%, 89%);
-$color-secundario: #f5f5dc;
-$color-terciario: #f0ffff;
-$color-text: black;
-
-
+@import "variables";
 
 * {
     margin: 0%;
     padding: 0%; }
   
   html {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: $tipo-de-fuente;
     font-size: larger; }
   
   body {
@@ -102,7 +96,7 @@ $color-text: black;
   
   /* estilos de main */
   article {
-    font-family: 'Roboto Condensed', sans-serif; }
+    font-family: $tipo-de-fuente; }
   
   img {
     width: 70%; }
@@ -154,6 +148,7 @@ $color-text: black;
         margin: 50px auto;
     }
     
+    
   
   /*media queries*/
   @media only screen and (min-width: 768px) {
@@ -189,7 +184,7 @@ $color-text: black;
       margin: 10px auto 0; }
     /* estilos main*/
     article {
-      font-family: Roboto, sans-serif; }
+      font-family: $tipo-de-fuente; }
     img {
       width: 100%; }
     .content {
