@@ -1,38 +1,11 @@
 /* Variables*/
 /*maps*/
 .red -facebook {
-  color: #052a4c;
+  color: #fff;
 }
 
 .red -instagram {
   color: #dd208b;
-}
-
-.cta, .cta-primario {
-  width: 180px;
-  height: 40px;
-  border-radius: 20px;
-  border: 2px solid #000;
-}
-
-.cta-primario {
-  line-height: 40px;
-  text-align: center;
-  font-size: 0.9rem;
-  color: black;
-  text-decoration: none;
-  margin-top: 10px;
-  position: relative;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.foto img {
-  width: 250px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
 }
 
 * {
@@ -218,6 +191,9 @@ p {
   height: 40px;
   border-radius: 20px;
   border: 2px solid #000;
+}
+
+.cta-primario {
   line-height: 40px;
   text-align: center;
   font-size: 0.9rem;
@@ -352,5 +328,10 @@ p {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+.fa-brands {
+  color: #fff;
+  margin-left: 5px;
 }
 /*# sourceMappingURL=prueba.css.map */
