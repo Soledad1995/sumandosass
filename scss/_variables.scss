@@ -10,7 +10,7 @@ $tipo-de-fuente: 'Roboto Condensed', sans-serif;
 /*maps*/
 
 $redes: (
-    facebook:#052a4c,
+    facebook:#fff,
     instagram:#dd208b,
 );
 @each $red, $color in $redes {
@@ -20,22 +20,7 @@ $redes: (
     
 }
 
-//extend
-.cta {
-    width: 180px;
-    height: 40px;
-    border-radius: 20px;
-    border: 2px solid #000;}
-.cta-primario{
-    @extend .cta;   
-    line-height: 40px;
-    text-align: center;
-    font-size: 0.9rem;
-    color: $color-text;
-    text-decoration: none;
-    margin-top: 10px;
-    position: relative;
-    box-sizing: border-box; }
+
 
 //mixins
 @mixin size ($ancho, $alineado, $margen) {
@@ -43,9 +28,4 @@ $redes: (
     align-items: $alineado;
     margin: $margen;
     
-}
-.foto img{
-@include size(250px, center,0 auto )
-
-
 }
