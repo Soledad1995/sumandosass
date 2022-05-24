@@ -118,6 +118,7 @@
   
   h2 {
     font-size: 1.5rem; }
+
   
   p {
     font-size: .9rem; }
@@ -165,7 +166,7 @@
    "nav"
    "main" 
    "footer"; }
-   
+
    /*navbar*/
    .container-fluid{
     background-color: $color-terciario;
@@ -207,19 +208,24 @@
       font-size: 1.5rem; }
     p {
       font-size: .9rem; }
-    .cta {
-      width: 180px;
-      height: 40px;
-      border-radius: 20px;
-      border: 2px solid #000;
-      line-height: 40px;
-      text-align: center;
-      font-size: 1.1rem;
-      color: $color-text;
-      text-decoration: none;
-      margin-top: 10px;
-      position: relative;
-      box-sizing: border-box; }
+      //extend
+  .cta {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #000;}
+  .cta-primario{
+  @extend .cta;   
+    line-height: 40px;
+    text-align: center;
+    font-size: 0.7rem;
+    color: $color-text;
+    text-decoration: none;
+    margin-top: 10px;
+    position: relative;
+    box-sizing: border-box;
+  } 
+    
     .content4 {
       display: inline; }
     .pcarte {
@@ -236,5 +242,14 @@
       color: map-get($redes, facebook);
       margin-left: 5px;
     }
+    .foto img{
+      @include size(250px, center,0 auto )
+    }
+    .card{
+        width: 250px;
+    }
 
+    #tarjetas{
+        margin: 50px auto;
+    }
 
