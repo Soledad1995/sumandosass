@@ -9,12 +9,12 @@
     font-size: larger; }
   
   body {
-    background-color: $color-secundario;
+    background-color: $color-terciario;
     width: 100%;
     position: relative;
     left: 0;
     top: 0;
-    background-color: $color-terciario;
+    background-color: $color-secundario;
     max-width: 1400px;
     min-height: 100vh;
     margin: 0px auto; }
@@ -44,6 +44,12 @@
   
   h3 {
     text-align: center; }
+
+    /*navbar*/
+    .container-fluid{
+      background-color: $color-terciario;
+    }
+    
   
   /* Estilo de main*/
   main {
@@ -112,6 +118,7 @@
   
   h2 {
     font-size: 1.5rem; }
+
   
   p {
     font-size: .9rem; }
@@ -159,6 +166,11 @@
    "nav"
    "main" 
    "footer"; }
+
+   /*navbar*/
+   .container-fluid{
+    background-color: $color-terciario;
+  }
    
   /* Estilo de main*/
     main {
@@ -181,6 +193,8 @@
       grid-column: 2; }
     p {
       display: inline-block; }
+    
+    
     .cta {
       display: block;
       margin: 10px auto 0; }
@@ -196,19 +210,24 @@
       font-size: 1.5rem; }
     p {
       font-size: .9rem; }
-    .cta {
-      width: 180px;
-      height: 40px;
-      border-radius: 20px;
-      border: 2px solid #000;
-      line-height: 40px;
-      text-align: center;
-      font-size: 1.1rem;
-      color: $color-text;
-      text-decoration: none;
-      margin-top: 10px;
-      position: relative;
-      box-sizing: border-box; }
+      //extend
+  .cta {
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid #000;}
+  .cta-primario{
+  @extend .cta;   
+    line-height: 40px;
+    text-align: center;
+    font-size: 0.7rem;
+    color: $color-text;
+    text-decoration: none;
+    margin-top: 10px;
+    position: relative;
+    box-sizing: border-box;
+  } 
+    
     .content4 {
       display: inline; }
     .pcarte {
@@ -225,5 +244,14 @@
       color: map-get($redes, facebook);
       margin-left: 5px;
     }
+    .foto img{
+      @include size(250px, center,0 auto )
+    }
+    .card{
+        width: 250px;
+    }
 
+    #tarjetas{
+        margin: 50px auto;
+    }
 
