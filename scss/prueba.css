@@ -19,12 +19,12 @@ html {
 }
 
 body {
-  background-color: #f5f5dc;
+  background-color: #ced4da;
   width: 100%;
   position: relative;
   left: 0;
   top: 0;
-  background-color: #f0ffff;
+  background-color: #f1f1f3;
   max-width: 1400px;
   min-height: 100vh;
   margin: 0px auto;
@@ -38,7 +38,7 @@ body {
 
 /*estilo de header*/
 header {
-  background: #f8cee0;
+  background: #f4d9cb;
   background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%);
   background-size: cover;
   width: 100%;
@@ -65,6 +65,11 @@ header {
 
 h3 {
   text-align: center;
+}
+
+/*navbar*/
+.container-fluid {
+  background-color: #ced4da;
 }
 
 /* Estilo de main*/
@@ -229,6 +234,10 @@ p {
 @media only screen and (min-width: 768px) {
   .contenedor {
         grid-template-areas: "header" "nav" "main"  "footer";
+  }
+  /*navbar*/
+  .container-fluid {
+    background-color: #ced4da;
   }
   /* Estilo de main*/
   main {

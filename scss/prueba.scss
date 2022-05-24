@@ -9,12 +9,12 @@
     font-size: larger; }
   
   body {
-    background-color: $color-secundario;
+    background-color: $color-terciario;
     width: 100%;
     position: relative;
     left: 0;
     top: 0;
-    background-color: $color-terciario;
+    background-color: $color-secundario;
     max-width: 1400px;
     min-height: 100vh;
     margin: 0px auto; }
@@ -44,6 +44,12 @@
   
   h3 {
     text-align: center; }
+
+    /*navbar*/
+    .container-fluid{
+      background-color: $color-terciario;
+    }
+    
   
   /* Estilo de main*/
   main {
@@ -159,6 +165,11 @@
    "nav"
    "main" 
    "footer"; }
+   
+   /*navbar*/
+   .container-fluid{
+    background-color: $color-terciario;
+  }
    
   /* Estilo de main*/
     main {
