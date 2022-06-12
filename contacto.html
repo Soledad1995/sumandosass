@@ -25,10 +25,10 @@
 <body>
     
         <!--barra de navegacion-->
-        <nav class="navbar navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
       
-            <a class="navbar-brand" href="index.html"><img src="imgpf/logomiosinfondo.png" width="75" height="75" class="d-inline-block align-text-top" alt="logo"></a>
+            <a class="navbar-brand" href="index.html"><img src="imgpf/logomiosinfondo.png" id="logito" class="d-inline-block align-text-top" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -58,50 +58,38 @@
 
   <!--contenido de pagina-->
     <main>
-        <section class="container" id="tarjetas">
-            <div class="row">
-                <div class="col">
-                  <div class="row mb-3">
-                    <h3>Envianos tus dudas</h3>
-                    <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Nombre</label>
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control form-control-sm" id="colFormLabelSm" placeholder="">
-                    </div>
-                  </div>
-                  <div class="row mb-3">
-                    
-                    <label for="colFormLabelSm" class="col-sm-2 col-form-label">Email</label>
-                    <div class="col-sm-10">
-                      <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Mensaje</label>
-                    <div class="col-sm-10">
-                      <input type="text" class="form-control form-control-lg" id="colFormLabelLg" placeholder="">
-                    </div>
-                    <div>
-                      <button type="button" class="btn btn-success" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Enviar</button>
-                    </div>
-                  </div>
-                  
-              
-                  <div class="col">
-                  
-                    <h4> Presupuestos</h4>
-                    <p> Envianos tu diseño/proyecto y lo presupuestamos en diferentes materiales para que tengas un panorama mejor de las calidades, terminaciones y precios. <br> Envianos tus consultas por WhatsApp <br> 381 523 4564</p>
+      <section class="container" id="tarjetas">
+        <div class="row">
+          <div class="col-6 g-2">
+            <label form="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+            <label form="email" class="form-label"> Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+            <label form="texto" class="form-label">Mensaje</label>
+            <input type="text" class="form-control" id="texto" placeholder="Deja aqui tu consulta">
+            <button type="submit" class="btn btn-primary ">Enviar</button>
 
-                  </div>
-                  <div class="col">
-                  
-                    <h4>¿Donde Estamos?</h4>
-                    <p><iframe width="280px" height="280px" src="https://www.openstreetmap.org/export/embed.html?bbox=-65.2058529853821%2C-26.836306169452747%2C-65.18941640853883%2C-26.825717560798743&amp;layer=mapnik" frameborder="0">
-                    </iframe><br>Asuncion 222 <br>San Miguel de Tucuman <br>Lu a Sa 8 a 18 hs</p>
-                  </div> 
+          </div>
+          <div class="col-6">
+            <h4> Presupuestos</h4>
+            <p> Envianos tu diseño/proyecto y lo presupuestamos en diferentes materiales para que tengas un panorama mejor de las calidades, terminaciones y precios. <br> Envianos tus consultas por WhatsApp <br> 381 523 4564</p>
 
-                </div>
-            </div>
-        </section>
+          </div>
+          <div class="row">
+            <div class="col">
+                  
+              <h4>¿Donde Estamos?</h4>
+              <p><iframe class="w-80 p-3" src="https://www.openstreetmap.org/export/embed.html?bbox=-65.2058529853821%2C-26.836306169452747%2C-65.18941640853883%2C-26.825717560798743&amp;layer=mapnik" frameborder="0">
+              </iframe><br>Asuncion 222 <br>San Miguel de Tucuman <br>Lu a Sa 8 a 18 hs</p>
+            </div> 
+
+          </div>
+
+            
+
+        </div>
+
+      </section>
     </main>
     <!--footer-->
         <footer class="py-5 bg-dark">
