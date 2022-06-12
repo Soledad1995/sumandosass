@@ -186,11 +186,7 @@ p {
 article {
   font-family: "Roboto Condensed", sans-serif;
 }
-/*
-img {
-  width: 75%;
-  
-}*/
+
 
 .box2 img:hover {
   padding: 20px;
@@ -330,16 +326,12 @@ p {
 
   img#logito{
     width: 15%;
-    transform: translateX(280px);
+    transform: translateX(240px);
   }
   
   .navbar-toggler{
     position:absolute;
   }
-/*
-  img {
-    width: 100%;
-  }*/
 
   .content {
     padding: 50px;
