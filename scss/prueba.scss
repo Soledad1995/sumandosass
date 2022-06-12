@@ -57,81 +57,7 @@
     
  
   
-  /* Estilo de main
-  main {
-    width: 100%;
-    margin: auto; }
-  
-  article {
-    display: grid;
-    grid-template-columns: 100%;
-    align-items: center; }
-  
-  :nth-child(odd) {
-    text-align: left; }
-  
-  .img1 {
-    grid-column: 1; }
-  
-  .content2 {
-    grid-column: 1;
-    grid-row: 1;
-    margin-right: 50px;
-    text-align: justify; }
-  
-  .img {
-    grid-column: 1; }
-  
-  .content {
-    grid-column: 1; }
-  
-  p {
-    display: inline; }
-  
-  .cta {
-    display: block;
-    margin: 10px auto 0;
-    animation-name: ltiemo;
-    animation-iteration-count: 5s;
-    animation-timing-function: ease-in;
-    animation-duration: 2s;
-    animation-delay: 5s; }
-  
-  @keyframes ltiemo {
-    0% {
-      width: 10%;
-      font-size: small; }
-    50% {
-      width: 50%; }
-    100% {
-      width: 100%; } }
-  
-  /* estilos de main 
-  article {
-    font-family: $tipo-de-fuente; }
-  
-  img {
-    width: 70%; }
-  
-  .box2 img:hover {
-    padding: 20px;
-    transform: scaleX(1, 2); }
-  
-  .content {
-    padding: 25px;
-    box-sizing: border-box;
-    text-align: justify; }
-  
-  h2 {
-    font-size: 1.5rem; }
-
-  
-  p {
-    font-size: .9rem; }
-*/
-
-  
-    /*
+ 
     //extend
   .cta {
     width: 180px;
@@ -396,71 +322,7 @@ a:hover {
 }
 
 
-  /* Estilo de main
-    main {
-      width: 70%;
-      margin: auto; }
-    article {
-      display: grid;
-      grid-template-columns: 50% 50%;
-      align-items: center; }
-    :nth-child(odd) {
-      text-align: center; }
-    .img1 {
-      grid-column: 2; }
-    .content2 {
-      grid-column: 1;
-      grid-row: 1; }
-    .img {
-      grid-column: 1; }
-    .content {
-      grid-column: 2; }
-    p {
-      display: inline-block; }
-    
-    
-    .cta {
-      display: block;
-      margin: 10px auto 0;
-      }
-    a{
-      text-align:center;
-      align-items: center;
-      align-content: center;
-      text-decoration: none;
-      color: #000;
-      background: transparente;
-        }
-    /* estilos main
-    article {
-      font-family: $tipo-de-fuente; }
-    img {
-      width: 100%; }
-    .content {
-      padding: 50px;
-      box-sizing: border-box; }
-    h1 {
-      font-size: 1.5rem; }
-    p {
-      font-size: .9rem; }
-      //extend
-  .cta {
-    width: 180px;
-    height: 40px;
-    border-radius: 20px;
-    border: 2px solid #000;}
-  .cta-primario{
-  @extend .cta;   
-    line-height: 40px;
-    text-align: center;
-    font-size: 0.7rem;
-    color: $color-text;
-    text-decoration: none;
-    margin-top: 10px;
-    position: relative;
-    box-sizing: border-box;
-  } 
-    */
+ 
     .content4 {
       display: inline; }
     .pcarte {
