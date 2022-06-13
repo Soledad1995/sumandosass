@@ -202,21 +202,21 @@ a:hover {
   /*media queries*/
   @media only screen and (min-width: 768px) {
     .contenedor {
-      grid-template-areas: "header"
-   "nav"
-   "main" 
-   "footer"; }
+      grid-template-areas: 
+      "header"
+      "nav"
+      "main" 
+      "footer"; }
 
-   /*navbar*/
-   .container-fluid{
+  /*navbar*/
+  .container-fluid{
     background-color: $color-terciario;
   }
   #logito{
     height: 10px;
     width: 10px;
-  }
-   
-    /* Estilo de main*/
+
+  /* Estilo de main*/
 main {
   width: 100%;
   margin: auto;
@@ -322,7 +322,6 @@ a:hover {
 }
 
 
- 
     .content4 {
       display: inline; }
     .pcarte {
